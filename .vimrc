@@ -70,7 +70,7 @@ set omnifunc=syntaxcomplete#Complete
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='solarized'
+"let g:airline_theme='solarized'
 if executable('ag')
       let g:ackprg = 'ag --vimgrep'
   endif
@@ -101,7 +101,7 @@ set mouse=a
 syntax enable
 syntax on
 "color dracula
-colorscheme solarized
+"colorscheme solarized
 set background=dark
 
 
